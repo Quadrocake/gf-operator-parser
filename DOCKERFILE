@@ -5,6 +5,6 @@ RUN pip3 install -r requirements.txt
 
 WORKDIR /app
 
-COPY . .
+COPY /app .
 
-CMD [ "python3", "./slack.py" ]
+CMD [ "python3", "slack.py" ]
