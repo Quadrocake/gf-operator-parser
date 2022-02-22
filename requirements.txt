@@ -1,0 +1,2 @@
+kubernetes==21.7.0
+slack_bolt==1.11.4
